@@ -1,0 +1,14 @@
+# lines starting with # are comments and should be discarded
+# student info, single line
+1234, Franz, Kafka, Computer Science, 1995-12-07
+# courses taken: code, name, credits, semester, grade, instructor(s)
+CS101, Introduction to Programming, 3, Fall2015, A, Turing
+CS202, Discrete Mathematics, 3, Fall2015, F, Gauss
+MATH101, Calculus I, 4, Fall2015, A-, Hilbert, Russell
+CS102, Object Oriented Programming, 4, Spring2016, A-, Hoare
+PHIL201, Introduction to Logic, 3, Spring2016, B+, Godel
+MATH102, Calculus II, 4, Fall2015, B+, Leibniz
+CS201, Data Structures, 4, Fall2016, B+, Dijkstra
+CS202, Discrete Mathematics, 3, Fall2016, A, Gauss
+MATH201, Linear Algebra, 3, Fall2016, A-, Gauss
+EE201, Information Theory, 3, Spring 2017, B+, Shannon
