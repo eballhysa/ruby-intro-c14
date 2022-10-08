@@ -1,7 +1,7 @@
 # input: array of (non-standard) lines
 # returns: array of (standardized words): punctuation removed, downcased
 def standardize(lines)
-  lines_no_punct = lines.map { |line| line.gsub(/[^a-z0-9\s]/i, '') }
+  lines_no_punct = lines.map { |line| line.gsub(/[^a-zëç0-9\s]/i, '') }
 
   words = lines_no_punct.map { |line| line.split }.flatten
   # equivalent to: words = lines_no_punct.map(&:split).flatten
@@ -37,4 +37,4 @@ def top_words(filename, n=5)
   sorted_words[0..n-1]
 end
 
-p top_words 'data/camus.txt', 20
+p top_words 'data/udhr-al.txt', 50
